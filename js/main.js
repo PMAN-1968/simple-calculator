@@ -1,0 +1,11 @@
+function clearResult(){
+    document.getElementById("display").value = " "
+}
+
+function showInput(num){
+    display.value += num;
+}
+
+function calculateResult(){
+    display.value = eval(display.value);
+}
